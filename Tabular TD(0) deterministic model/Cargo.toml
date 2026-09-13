@@ -1,0 +1,20 @@
+[package]
+name = "tabular-td"
+version = "0.1.0"
+edition = "2021"
+authors = ["tito <tito@example.com>"]
+description = "TD(0) V(s) para jogo da velha: Tabular TD(0) com modelo determinístico"
+license = "MIT"
+
+[[bin]]
+name = "train"
+path = "src/train.rs"
+
+[[bin]]
+name = "tabular-td"
+path = "src/main.rs"
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+rand = "0.8"
