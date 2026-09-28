@@ -1,0 +1,8 @@
+[package]
+name = "sutton-1-5"
+version = "0.1.0"
+edition = "2021"
+description = "Sutton & Barto, seção 1.5: jogo da velha com V(s) e TD — a versão mais simples possível"
+
+[dependencies]
+rand = "0.8"
