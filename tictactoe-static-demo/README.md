@@ -30,3 +30,7 @@ A requisição ao JSON exige execução por servidor HTTP. Abrir o `index.html` 
 3. Em **Build and deployment**, selecione **Deploy from a branch**.
 4. Escolha o branch e a pasta raiz ou a pasta que contém esta demonstração.
 5. Acesse a URL fornecida pelo GitHub Pages.
+
+## Demonstração online
+
+- https://titobotelho.github.io/tic-tac-toe-RL-Solutions/

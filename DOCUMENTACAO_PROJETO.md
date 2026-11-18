@@ -124,3 +124,11 @@ E force recarga do navegador (Ctrl+Shift+R).
   - `exports/v_table.csv`
   - `exports/v_table.db`
 - Caso nao exista tabela persistida, a API sobe com tabela vazia e fallback de valor padrao por estado.
+
+## Demonstração online
+
+Versão estática do Jogo da Velha contra a IA:
+
+- https://titobotelho.github.io/tic-tac-toe-RL-Solutions/
+
+Esta demonstração não usa o backend Rust. Ela executa a jogada da IA diretamente no navegador com a tabela treinada exportada em `v_table.json`.
