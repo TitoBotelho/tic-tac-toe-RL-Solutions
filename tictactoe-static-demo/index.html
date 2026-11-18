@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jogo da Velha vs IA</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="shell">
+    <header class="hero">
+      <p class="tag">Tabular RL - Demonstração estática</p>
+      <h1>Jogo da Velha vs IA</h1>
+      <p class="sub">Você joga com O. A IA joga com X usando uma tabela treinada.</p>
+    </header>
+
+    <section class="panel">
+      <div id="board" class="board" role="grid" aria-label="Tabuleiro 3x3"></div>
+    </section>
+
+    <section class="panel">
+      <p id="status" class="status">Carregando a IA...</p>
+      <button id="resetBtn" class="btn" type="button">Nova partida</button>
+      <p class="hint">Esta versão não precisa de backend: a IA consulta o arquivo v_table.json.</p>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
